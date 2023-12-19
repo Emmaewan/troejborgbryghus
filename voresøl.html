@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trøjborg Bryghus</title>
+    <meta name="description" content="Mikrobryggeri på Trøjborg med alkoholfri øl">
+    <meta name="keywords"
+        content="alkoholfriøl, øl, hygge, venner, fest, samvær, uformel, sommer, frokost, alternativ, sundhed, fleksibilitet, bajer, trøjborg bryghus, mikrobryggeri">
+    <meta name="author" content="Trøjborg Bryghus">
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--google font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Abel&family=Open+Sans:wght@300;700&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Abel&family=Advent+Pro&family=Open+Sans:wght@300;700&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <!--favicon-->
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+
+    <!-- NAVIGATIONSLINJE-->
+
+    <header>
+        <nav class="navigation_container">
+
+            <!-- Logo til Trøjborg Bryghus -->
+            <div class="topbar">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+
+                <div class="right-menu">
+                    <label for="mobileicon" class="mobileiconlabel">&#9776;</label>
+                </div>
+            </div>
+            <input type="checkbox" id="mobileicon" class="mobileicon">
+
+            <!-- Dropdown + burgermenu (menuitems)-->
+            <div class="menuitems_container">
+                <ul>
+                    <li>
+                        <a href="omos.html" class="menuitem">Om os</a>
+                    </li>
+                    <li>
+                        <a href="hvorforalkoholfriøl.html" class="menuitem">Hvorfor alkoholfri øl?</a>
+                    </li>
+                    <li>
+                        <a href="voresøl.html" class="menuitem">Vores øl</a>
+                    </li>
+                    <li>
+                        <a href="Forhandlere.html" class="menuitem">Forhandlere</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_filler">
+            </div>
+        </nav>
+    </header>
+
+    <!-- M A I N C O N T E N T   S T A R T E R   H E R-->
+
+    <main>
+
+        <!-- underside navigation-->
+
+        <h1>Vores Øl</h1>
+
+        <h4>Læs mere om</h4>
+
+        <hr class="streg">
+
+        <ul class="navigation-flexbox">
+            <li><a href="#vores1">Vores udvalg</a></li>
+            <li><a href="#vores2">Anmeldelser</a></li>
+            <li><a href="#vores3">Ølsmagning</a></li>
+        </ul>
+
+
+        <!-- Vores udvalg-->
+
+        <section id="vores1">
+            <h2>Vores udvalg</h2>
+
+            <div class="scroll-container">
+                <img src="img/øl8.png" alt="Stout">
+                <img src="img/øl2.png" alt="IPA">
+                <img src="img/øl3.png" alt="Hvedeøl">
+                <img src="img/øl7.png" alt="Pilsner">
+                <img src="img/øl4.png" alt="Forårsøllen">
+                <img src="img/øl5.png" alt="Sommerøllen">
+                <img src="img/øl1.png" alt="Efterårsøl">
+                <img src="img/øl6.png" alt="Juleøllen">
+
+            </div>
+
+        </section>
+
+        <!-- Anmeldelser-->
+
+        <section id="vores2">
+
+            <h2>Anmeldelser</h2>
+
+            <div class="anmeldelse-container">
+
+                <div class="anmeldelse-billeder">
+                    <img src="img/anmeldelser.png" alt="Sample picture for scroll box">
+                </div>
+
+                <a href="underudvikling.html" class="btn">Skriv en anmeldelse!</a>
+            </div>
+
+        </section>
+
+
+        <!-- ølsmagning-->
+
+        <section id="vores3">
+
+            <h2>Ølsmagning</h2>
+            <p>Få øjnene op for alkoholfri øl! En gang i måneden kan du komme til alkoholsmagning ved Trøjborg
+                Bryghus. </p>
+            <p> Find din farvorit og tilmeld dig under kalenderen</p>
+
+            <div class="ølsmagning-container">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">December</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Januar</a>
+                        <a href="#">Februar</a>
+                        <a href="#">Marts</a>
+                        <a href="#">April</a>
+                        <a href="#">Maj</a>
+                        <a href="#">Juni</a>
+                    </div>
+                </div>
+
+                <img src="img/kalender.png" alt="Kalenderoversigt over December" class="kalender">
+                <a href="underudvikling.html" class="btn">Meld dig til her! </a>
+            </div>
+
+        </section>
+
+
+
+
+        <!-- F O O T E R  S T A R T E R   H E R-->
+        <footer>
+            <div class="footer_flex">
+                <!--Sociale medier-->
+                <section>
+                    <h2>Find os</h2>
+                    <a target="_blank" href="https://www.instagram.com">
+                        <img src="img/instagram.png" alt="Instagram icon" class="insta_icon">
+                    </a>
+                    <a target="_blank" href="https://da-dk.facebook.com/">
+                        <img src="img/facebook.png" alt="Instagram icon" class="fb_icon">
+                    </a>
+                </section>
+                <!--Lokation-->
+                <section>
+                    <h2>Lokation</h2>
+                    <p>Niels Juels gade 51, 8000 Aarhus C</p>
+                </section>
+
+                <!--Kontakt-->
+                <section>
+                    <h2>Kontakt</h2>
+                    <p>Trøjborgbryg@gmail.com</p>
+                    <p>+45 47 22 89 50</p>
+                </section>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
